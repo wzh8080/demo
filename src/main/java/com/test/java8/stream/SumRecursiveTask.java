@@ -1,4 +1,4 @@
-package com.example.test.java8.stream;
+package com.test.java8.stream;
 
 import java.util.concurrent.RecursiveTask;
 

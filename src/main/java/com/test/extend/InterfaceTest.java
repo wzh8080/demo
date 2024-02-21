@@ -1,4 +1,4 @@
-package com.example.test.extend;
+package com.test.extend;
 @FunctionalInterface
 public interface InterfaceTest {
     void method();

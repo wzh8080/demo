@@ -1,4 +1,4 @@
-package com.example.test.java8.annotation;
+package com.test.java8.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

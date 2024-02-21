@@ -1,4 +1,4 @@
-package com.example.test.extend;
+package com.test.extend;
 
 public class Parent implements ParentInterface{
     public String public_name;

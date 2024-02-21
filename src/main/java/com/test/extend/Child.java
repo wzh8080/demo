@@ -1,4 +1,4 @@
-package com.example.test.extend;
+package com.test.extend;
 
 public class Child extends Parent{
     public static String static_name = "Child static_name";

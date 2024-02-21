@@ -11,9 +11,9 @@ public class FindKeyLog {
     public static void main(String[] args) {
 
         // .log 所在文件夹
-        String path = "D:\\Test\\EDS-log-46";
+        String path = "C:\\Users\\56465\\Desktop\\智胜日志\\46";
 
-        String key = "\"sharesfrosts\"";
+        String key = "elys03";
 
 //        unzip("D:\\Test\\EDS-log-46\\log.2024-01-14.0.log.zip");
         getFileList(path, key);
@@ -89,7 +89,7 @@ public class FindKeyLog {
             File file = fileList[i];
             if (file.isFile()) {
                 if (file.getName().endsWith(".log")) {
-//                    System.out.println("解析文件："+file.getName());
+                    System.out.println("解析文件："+file.getName());
                     // 逐行读取文件内容
                     try(BufferedReader br = new BufferedReader(new FileReader(file))) {
                         String line = null;

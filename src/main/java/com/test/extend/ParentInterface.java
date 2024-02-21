@@ -1,4 +1,4 @@
-package com.example.test.extend;
+package com.test.extend;
 
 public interface ParentInterface {
     static void staticParentInterfaceMethod() {

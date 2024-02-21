@@ -1,4 +1,4 @@
-package com.example.test.java8.function;
+package com.test.java8.function;
 
 public class TestDemo {
     public static String getStatic(){
